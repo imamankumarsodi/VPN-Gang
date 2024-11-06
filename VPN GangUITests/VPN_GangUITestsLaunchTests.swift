@@ -2,7 +2,7 @@
 //  VPN_GangUITestsLaunchTests.swift
 //  VPN GangUITests
 //
-//  Created by Aman Kumar on 06/11/24.
+//  Created by Apple on 06/11/24.
 //
 
 import XCTest
@@ -17,7 +17,6 @@ final class VPN_GangUITestsLaunchTests: XCTestCase {
         continueAfterFailure = false
     }
 
-    @MainActor
     func testLaunch() throws {
         let app = XCUIApplication()
         app.launch()

@@ -2,7 +2,7 @@
 //  VPN_GangTests.swift
 //  VPN GangTests
 //
-//  Created by Aman Kumar on 06/11/24.
+//  Created by Apple on 06/11/24.
 //
 
 import XCTest

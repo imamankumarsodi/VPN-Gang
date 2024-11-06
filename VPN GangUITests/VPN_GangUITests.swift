@@ -2,7 +2,7 @@
 //  VPN_GangUITests.swift
 //  VPN GangUITests
 //
-//  Created by Aman Kumar on 06/11/24.
+//  Created by Apple on 06/11/24.
 //
 
 import XCTest
@@ -22,7 +22,6 @@ final class VPN_GangUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    @MainActor
     func testExample() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
@@ -31,7 +30,6 @@ final class VPN_GangUITests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
-    @MainActor
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
             // This measures how long it takes to launch your application.
